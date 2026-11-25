@@ -1,0 +1,48 @@
+{
+  "repo": "open-r1/verifiable-coding-problems-python",
+  "revision": "b761a24a95fa03289a231d2d31c183636ffb9833",
+  "assets": [
+    {
+      "path": "data/openr1/train-00002-of-00011.parquet",
+      "sha256": "d8529e402f7687a93fe0701e492f709cd2ae92878d1f9d6f3271396f290ffcfb",
+      "bytes": 137800269,
+      "urls": [
+        "https://huggingface.co/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00002-of-00011.parquet",
+        "https://hf-mirror.com/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00002-of-00011.parquet"
+      ]
+    },
+    {
+      "path": "data/openr1/train-00003-of-00011.parquet",
+      "sha256": "666551e0b8ca04a9c801acb371d01683c698f719a761b7c682f69745249a7193",
+      "bytes": 143141971,
+      "urls": [
+        "https://huggingface.co/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00003-of-00011.parquet",
+        "https://hf-mirror.com/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00003-of-00011.parquet"
+      ]
+    },
+    {
+      "path": "data/openr1/train-00004-of-00011.parquet",
+      "sha256": "aad20e382fd2d826b76ab91f8e324593fc3ea65e86accc93e05143a20250d60b",
+      "bytes": 128191411,
+      "urls": [
+        "https://huggingface.co/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00004-of-00011.parquet",
+        "https://hf-mirror.com/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00004-of-00011.parquet"
+      ]
+    },
+    {
+      "path": "data/openr1/train-00005-of-00011.parquet",
+      "sha256": "aee44a3f2f33e766e262e5e06995d760cb5e73acaa04e3f1b116742234667634",
+      "bytes": 121126332,
+      "urls": [
+        "https://huggingface.co/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00005-of-00011.parquet",
+        "https://hf-mirror.com/datasets/open-r1/verifiable-coding-problems-python/resolve/b761a24a95fa03289a231d2d31c183636ffb9833/data/train-00005-of-00011.parquet"
+      ]
+    }
+  ],
+  "projected_sha256": {
+    "train-00002-of-00011.jsonl": "70b6b132b46500cf68ad82f013f1da726fde9f7127f15c1e5c77ae1c9536b87e",
+    "train-00003-of-00011.jsonl": "e7e5e16aacbe385d0c96736b4559d4caf6d6b6849fa584acc201bd3cbccdf0fb",
+    "train-00004-of-00011.jsonl": "b8dca4991fae2cb084bc6b3376fd10170fd15d22b69312831361eb95a74e0432",
+    "train-00005-of-00011.jsonl": "48838c5404bfcf623d571a0c0bc1ab924942e6308eabee5afdd8955e498b2a1e"
+  }
+}

@@ -1,0 +1,11 @@
+mlx==0.32.4
+mlx-lm==0.32.2
+numpy==2.4.6
+tqdm==4.70.1
+pyarrow==26.0.1
+matplotlib==3.11.2
+transformers==5.22.2
+tokenizers==0.23.3
+safetensors==0.8.0
+huggingface-hub==2.4.0
+setuptools==79.0.1

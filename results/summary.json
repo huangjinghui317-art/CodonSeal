@@ -1,0 +1,100 @@
+{
+  "all_five": {
+    "unmarked": {
+      "pass_at_1": {
+        "mean": 0.5097560975609756,
+        "sd": 0.02461784053437362
+      },
+      "self_ppl": {
+        "mean": 1.115889421637594,
+        "sd": 0.007956848671260995
+      }
+    },
+    "CodonSeal-oracle": {
+      "auroc": {
+        "mean": 0.9208023497917907,
+        "sd": 0.013869051783777833
+      },
+      "ap": {
+        "mean": 0.9162234558664824,
+        "sd": 0.015294856135474379
+      },
+      "tpr_5": {
+        "mean": 0.6536585365853659,
+        "sd": 0.054606373603019794
+      },
+      "fpr_5": {
+        "mean": 0.04878048780487805,
+        "sd": 0.0
+      },
+      "pass_at_1": {
+        "mean": 0.49634146341463414,
+        "sd": 0.023457785441062615
+      },
+      "self_ppl": {
+        "mean": 1.1359271752959963,
+        "sd": 0.00825284820064497
+      }
+    },
+    "CodonSeal": {
+      "auroc": {
+        "mean": 0.7207093991671624,
+        "sd": 0.005200528886232471
+      },
+      "ap": {
+        "mean": 0.7339812537023581,
+        "sd": 0.0071138994195574234
+      },
+      "tpr_5": {
+        "mean": 0.2731707317073171,
+        "sd": 0.027742227234334938
+      },
+      "fpr_5": {
+        "mean": 0.0475609756097561,
+        "sd": 0.0027269121676826696
+      },
+      "pass_at_1": {
+        "mean": 0.47804878048780486,
+        "sd": 0.01956927626326977
+      },
+      "self_ppl": {
+        "mean": 1.1777409629882023,
+        "sd": 0.008579134605819492
+      }
+    }
+  },
+  "config": {
+    "seeds": [
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "questions": 164,
+    "batch_size": 24,
+    "max_answer_tokens": 256,
+    "temperature": 0.8,
+    "top_k": 64,
+    "public_key_label": "CodonSeal public HumanEval benchmark v1",
+    "expected_checkpoint_sha256": "231b4236cc3942e2c5438e1905e0f5345c9a01bb25afaaee18dc27ff4dcea4f8",
+    "expected_geometry_sha256": "10468467ff42e3b10d22ab15c595ab5f6e1099876b6ecc2c404f4136717226a6"
+  },
+  "asset_hashes": {
+    "model": {
+      "config.json": "40e3cc0d99d5f0915535afe55c5c11dd87bcb1e93cabb92b2f296e60286958b3",
+      "tokenizer_config.json": "959e7f1d9a1b7641a6d6ce05ca97b75c7894fcb66cbe5a040406458fb1128ee4",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "model.safetensors": "daeab4764fb420d161721791cf2e509e2de81a7af4223646e7bed2bf82c57b58"
+    },
+    "geometry": "10468467ff42e3b10d22ab15c595ab5f6e1099876b6ecc2c404f4136717226a6",
+    "checkpoint": "231b4236cc3942e2c5438e1905e0f5345c9a01bb25afaaee18dc27ff4dcea4f8",
+    "humaneval": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef"
+  },
+  "full_coverage": {
+    "questions": 164,
+    "answers": 2460,
+    "scores": 3280,
+    "grades": 2460
+  }
+}

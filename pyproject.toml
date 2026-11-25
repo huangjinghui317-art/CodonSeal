@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codonseal"
+version = "0.1.0"
+description = "CodonSeal code watermarking and HumanEval experiments"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md"]
+dependencies = ["numpy>=2", "tqdm>=4", "matplotlib>=3.9"]
+
+[project.optional-dependencies]
+mlx = ["mlx-lm==0.32.2; platform_system == 'Darwin' and platform_machine == 'arm64'", "pyarrow>=17"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+codonseal = ["*.sb", "*.json"]

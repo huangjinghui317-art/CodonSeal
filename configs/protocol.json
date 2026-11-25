@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "questions": 164,
+  "batch_size": 24,
+  "max_answer_tokens": 256,
+  "temperature": 0.8,
+  "top_k": 64,
+  "public_key_label": "CodonSeal public HumanEval benchmark v1",
+  "expected_checkpoint_sha256": "231b4236cc3942e2c5438e1905e0f5345c9a01bb25afaaee18dc27ff4dcea4f8",
+  "expected_geometry_sha256": "10468467ff42e3b10d22ab15c595ab5f6e1099876b6ecc2c404f4136717226a6"
+}

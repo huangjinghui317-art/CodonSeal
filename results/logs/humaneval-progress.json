@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "phase": "complete",
+  "current": {
+    "generations": 2460,
+    "scores": 3280,
+    "grades": 2460
+  },
+  "target": {
+    "generations": 2460,
+    "scores": 3280,
+    "grades": 2460
+  },
+  "error": null,
+  "elapsed_seconds": 1926.6747617721558
+}
